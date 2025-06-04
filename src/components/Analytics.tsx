@@ -142,7 +142,7 @@ export default function Analytics() {
                 `${name} ${(percent * 100).toFixed(0)}%`
               }
             >
-              {genderData.map((entry, index) => (
+              {genderData.map((_, index) => (
                 <Cell
                   key={`cell-${index}`}
                   fill={COLORS[index % COLORS.length]}

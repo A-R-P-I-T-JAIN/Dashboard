@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import type { Patient } from '../types/patient';
 import { usePatients } from '../context/PatientContext';
 import {
   PencilIcon,

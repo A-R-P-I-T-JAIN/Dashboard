@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 import {
   HomeIcon,
   UserGroupIcon,
-  ChartBarIcon,
-  CogIcon,
 } from '@heroicons/react/24/outline';
 
 interface LayoutProps {
